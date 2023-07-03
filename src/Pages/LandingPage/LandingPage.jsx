@@ -1,12 +1,14 @@
 import React from 'react';
 import "./LandingPage.scss"
-import Footer from '../../Components/Footer/Footer';
+import NavBar from '../../Components/NavBar/NavBar';
+import Body from '../../Components/Body/Body';
 
 
 function LandingPage(props) {
     return (
         <div>
-            <Footer />
+            <NavBar />
+            <Body />
         </div>
     );
 }

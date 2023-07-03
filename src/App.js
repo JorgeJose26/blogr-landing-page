@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
@@ -8,7 +8,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-
 
         </Routes>
 
