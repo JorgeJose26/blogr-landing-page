@@ -11,7 +11,7 @@ function Body(props) {
                 <h2 className='text-[#1F3F5B] text-2xl pt-24'>Designed for the future</h2>
             </div>
             <div>
-                <img src={mobileImg} className='pt-10' />
+                <img src={mobileImg} className='pt-10' alt='mobile' />
             </div>
             <section className='flex flex-col flex-wrap pt-12 justify-around pl-6 pr-6'>
                 <h2 className='text-[#1F3F5B] text-2xl pb-6 leading-none'>Introducing an <br />extensible editor</h2>
@@ -29,7 +29,7 @@ function Body(props) {
             </section>
             <section className='infrastructure flex flex-col flex-wrap pt-12 justify-around pt-[12rem] pl-6 pr-6 rounded-tr-[5rem]
                 rounded-bl-[5rem] mt-[20rem] pb-[15rem] static'>
-                <img className='absolute top-[96rem] left-[0rem] w-[505] ' src={phones} />
+                <img className='absolute top-[96rem] left-[0rem] w-[505] ' src={phones} alt='phones' />
                 <h2 className='text-[#1F3F5B] text-3xl pb-6  text-white'>State of the Art Infrastructure</h2>
                 <p className='text-white text-[12px]'>With reliability and speed in mind, worldwide data centers provide the backbone for ultra
                     -fast connectivity. This ensures your site will load instantly. no matter where your readers are. keeping your site competitive.

@@ -1,14 +1,22 @@
 import React from 'react';
 import "./NavBar.scss"
 import hamburger from "../../Assets/images/icon-hamburger.svg"
+import logo from "../../Assets/images/logo.svg";
+
 
 
 function NavBar(props) {
+
+
+
+
+
     return (
-        <body className='body rounded-bl-[5rem]'>
+        <header className='body rounded-bl-[5rem]'>
             <nav className='pt-2'>
                 <div className='flex flex-row justify-between items-center pl-6 pr-6 pt-6 pb-14'>
-                    <p className='text-3xl text-white font-semibold'>Blogr</p>
+                    <img className='logo' src={logo} alt='logo' />
+                    {/* <p className='text-3xl text-white font-semibold'>Blogr</p> */}
                     <img className='h-6 w-8' src={hamburger} alt='hamburger' />
                 </div>
 
@@ -28,7 +36,10 @@ function NavBar(props) {
                     <button className='text-white outline outline-white-500 rounded-full h-10 w-24 text-xs'>Learn More</button>
                 </div>
             </hero>
-        </body>
+
+
+        </header>
+
     );
 }
 
