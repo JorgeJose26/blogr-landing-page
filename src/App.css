@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "UbuntuLight";
-  src: url(./Assets/fonts/Ubuntu-Light.ttf);
-}
-
 .App {
   text-align: center;
-}
-
-.p {
-  font-family: 'UbuntuLight';
-}
-
-.h2,
-h3,
-h1 {
-  font-family: 'Times New Roman', Times, serif;
 }
