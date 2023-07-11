@@ -2,11 +2,12 @@ import React from 'react';
 import "./NavBar.scss"
 import hamburger from "../../Assets/images/icon-hamburger.svg"
 import logo from "../../Assets/images/logo.svg";
+import { useNavigate } from 'react-router-dom';
 
 
 
 function NavBar(props) {
-
+    const navigate = useNavigate();
 
 
 
@@ -17,7 +18,7 @@ function NavBar(props) {
                 <div className='flex flex-row justify-between items-center pl-6 pr-6 pt-6 pb-14'>
                     <img className='logo' src={logo} alt='logo' />
                     {/* <p className='text-3xl text-white font-semibold'>Blogr</p> */}
-                    <img className='h-6 w-8' src={hamburger} alt='hamburger' />
+                    <img className='h-6 w-8' src={hamburger} alt='hamburger' onClick={() => navigate(`/menu`)} />
                 </div>
 
             </nav>
