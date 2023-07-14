@@ -39,18 +39,18 @@ function Body(props) {
                 </p>
 
             </section>
-            <section className='flex flex-col flex-wrap pt-12 justify-around pl-6 pr-6'>
-                <img className='mt-[1rem] mb-[1rem]' src={laptop} alt='bleep' />
-                <h2 className='text-[#1F3F5B] text-2xl pb-6 '>Free, open, simple </h2>
-                <p className='text-[#4B5862] text-[16px]'>Blogr is free and open source application backed by a large community
+            <section className='flex flex-col flex-wrap pt-12 justify-around pl-6 pr-6 dt:static dt:pl-[52rem] dt:pr-[8rem] dt:mt-[8rem]'>
+                <img className='mt-[1rem] mb-[1rem] dt:float-left dt:absolute dt:w-[70%] dt:left-[-16rem] dt:top-[110rem]' src={laptop} alt='bleep' />
+                <h2 className='text-[#1F3F5B] text-3xl pb-6 dt:self-start '>Free, open, simple </h2>
+                <p className='text-[#4B5862] text-lg dt:text-left'>Blogr is free and open source application backed by a large community
                     of helpful developers. it supports features such as code syntax highlighting, RSS, feeds, social media integration, third-part commenting tools,
                     and works seamlessly with goole Analytics. The architecture is clean and is relatively easy to learn.
 
                 </p>
             </section>
-            <section className='flex flex-col flex-wrap pt-12 justify-around pl-6 pr-6 mb-[6rem]'>
-                <h2 className='text-[#1F3F5B] text-2xl pb-6 '>Powerful tooling</h2>
-                <p className='text-[#4B5862] text-[16px]'>Batteries included. We built a simple and strightfoward CLI tool that makes
+            <section className='flex flex-col flex-wrap pt-12 justify-around pl-6 pr-6 mb-[6rem] dt:pl-[52rem] dt:pr-[8rem] dt:mb-[8rem]'>
+                <h2 className='text-[#1F3F5B] text-3xl pb-6 dt:self-start '>Powerful tooling</h2>
+                <p className='text-[#4B5862] text-lg  dt:text-left'>Batteries included. We built a simple and strightfoward CLI tool that makes
                     customization and development a breeze, but capable of producing even the most complicated sites.
                 </p>
 
