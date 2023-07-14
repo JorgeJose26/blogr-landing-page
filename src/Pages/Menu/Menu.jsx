@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import "./Menu.scss";
 import logo from "../../Assets/images/logo.svg";
 import close from "../../Assets/images/icon-close.svg";
@@ -20,7 +20,7 @@ function Menu(props) {
 
         for (var i = 0; i < connectList.length; i += 1) {
 
-            if (connectList[i].style.display == 'none') {
+            if (connectList[i].style.display === 'none') {
                 connectList[i].style.display = 'flex';
             } else {
                 connectList[i].style.display = 'none';
@@ -40,13 +40,13 @@ function Menu(props) {
 
                 <div className='absolute bg-white h-[28rem] w-[21rem] pt-[2rem] rounded-lg flex flex-col items-center top-[8rem] left-[1.2rem] gap-[1rem] '>
 
-                    <button className='text-[#1F3F5B] text-lg'>Product <img className='inline' src={arrow} /></button>
-                    <button className='text-[#1F3F5B] text-lg'>Company <img className='inline' src={arrow} /></button>
-                    <button className='text-[#1F3F5B] text-lg' onClick={handleDropDown}>Connect <img className='inline ' src={arrow} /></button>
+                    <button className='text-[#1F3F5B] text-lg'>Product <img className='inline' src={arrow} alt='arrow' /></button>
+                    <button className='text-[#1F3F5B] text-lg'>Company <img className='inline' src={arrow} alt='arrow' /></button>
+                    <button className='text-[#1F3F5B] text-lg' onClick={handleDropDown}>Connect <img className='inline ' src={arrow} alt='arrow' /></button>
                     <div className='dropdown flex-col bg-slate-200 w-[17rem] h-[10rem] pt-[2rem] gap-[0.5rem] rounded-md '>
-                        <a className='text-[#4B5862]'>Contact</a>
-                        <a className='text-[#4B5862]'>Newletter</a>
-                        <a className='text-[#4B5862]'>Linkedln</a>
+                        <a href="/" className='text-[#4B5862]'>Contact</a>
+                        <a href="/" className='text-[#4B5862]'>Newletter</a>
+                        <a href="/" className='text-[#4B5862]'>Linkedln</a>
                     </div>
 
 

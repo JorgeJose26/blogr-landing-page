@@ -1,0 +1,9 @@
+$bigDeskTop-breakpoint: 1440px;
+
+
+@mixin bigDeskTop {
+    @media screen and (min-width:$bigDeskTop-breakpoint) {
+        @content;
+
+    }
+}

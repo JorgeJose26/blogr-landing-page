@@ -1,8 +1,18 @@
+@use '../../Styles/partials/variables';
+
 .infrastructure {
     background: url('../../Assets/images/bg-pattern-circles.svg'), linear-gradient(#2c2d3f, #3F4164);
     background-position: 50% 550%;
     background-size: calc(210%);
     background-repeat: no-repeat;
+
+    @include variables.bigDeskTop {
+
+        background: url('../../Assets/images/bg-pattern-circles.svg'), linear-gradient(#2c2d3f, #3F4164);
+        background-position: -32% 76%;
+        background-repeat: no-repeat;
+
+    }
 
 
 
