@@ -8,10 +8,10 @@ function Body(props) {
     return (
         <body>
             <div>
-                <h2 className='text-[#1F3F5B] text-2xl pt-24 dt:text-[2rem] dt:pt-[8rem]'>Designed for the future</h2>
+                <h2 className='text-[#1F3F5B] text-2xl pt-24 dt:text-[2rem] dt:pt-[8rem] dt:pb-[2rem]'>Designed for the future</h2>
             </div>
             <div>
-                <img src={mobileImg} className='pt-10 dt:float-right dt:absolute dt:w-[44rem] dt:left-[46rem] dt:top-[36rem]' alt='mobile' />
+                <img src={mobileImg} className='pt-10 dt:float-right dt:absolute dt:w-[44rem] dt:left-[46rem] dt:top-[39rem]' alt='mobile' />
             </div>
 
             <section className='flex flex-col flex-wrap pt-12 justify-around dt:justify-start pl-6 pr-6 dt:pl-[10rem] dt:pr-[47rem] '>
@@ -40,7 +40,7 @@ function Body(props) {
 
             </section>
             <section className='flex flex-col flex-wrap pt-12 justify-around pl-6 pr-6 dt:static dt:pl-[52rem] dt:pr-[8rem] dt:mt-[8rem]'>
-                <img className='mt-[1rem] mb-[1rem] dt:float-left dt:absolute dt:w-[70%] dt:left-[-16rem] dt:top-[113rem]' src={laptop} alt='bleep' />
+                <img className='mt-[1rem] mb-[1rem] dt:float-left dt:absolute dt:w-[70%] dt:left-[-16rem] dt:top-[115rem]' src={laptop} alt='bleep' />
                 <h2 className='text-[#1F3F5B] text-3xl pb-6 dt:self-start'>Free, open, simple </h2>
                 <p className='text-[#4B5862] text-lg dt:text-left dt:text-[16px]'>Blogr is free and open source application backed by a large community
                     of helpful developers. it supports features such as code syntax highlighting, RSS, feeds, social media integration, third-part commenting tools,
